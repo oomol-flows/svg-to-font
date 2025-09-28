@@ -1,0 +1,3 @@
+{
+  "this-project-provides-an-automated-solution-for-converting-indiv": "This project provides an automated solution for converting individual SVG icon files into complete font packages. It generates multiple font formats (WOFF, TTF) along with CSS files, allowing designers and developers to easily integrate custom icons into their projects as scalable web fonts."
+}

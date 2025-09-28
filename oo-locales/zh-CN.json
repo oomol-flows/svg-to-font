@@ -1,0 +1,3 @@
+{
+  "this-project-provides-an-automated-solution-for-converting-indiv": "该项目提供了一种自动化解决方案，用于将单独的SVG图标文件转换为完整的字体包。它会生成多种字体格式（WOFF、TTF）以及CSS文件，使设计师和开发者能够轻松地将自定义图标作为可缩放的网页字体集成到他们的项目中。"
+}

@@ -7,3 +7,5 @@ icon: ./icon.png
 name: svg-to-font
 repository: https://github.com/oomol-flows/svg-to-font
 releaseNotes: init
+displayName: Svg to Font
+description: "%this-project-provides-an-automated-solution-for-converting-indiv%"
