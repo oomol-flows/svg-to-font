@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "mcp__oomol__runFlow",
+      "Read(//oomol-driver/oomol-storage/**)",
+      "mcp__oomol__listRunningTasks",
+      "Bash(xargs dirname:*)",
+      "Bash(xargs basename:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,56 @@
+title: "SVG to Font Converter"
+icon: ":carbon:text-font:"
+description: "Convert SVG icons to web font files with CSS, WOFF, and TTF formats"
+
+executor:
+  name: nodejs
+  options:
+    entry: main.ts
+
+inputs_def:
+  - handle: svg_file
+    description: "Single SVG file to convert"
+    json_schema:
+      type: string
+      ui:widget: file
+      ui:options:
+        filters:
+          - name: SVG Files
+            extensions:
+              - svg
+        excludeAll: true
+    nullable: false
+
+  - handle: out_zip
+    description: "Output directory or file path for the font package"
+    json_schema:
+      type: string
+      ui:widget: save
+      ui:options:
+        filters:
+          - name: ZIP Archive
+            extensions:
+              - zip
+        excludeAll: false
+    value:
+    nullable: true
+
+  - handle: fontName
+    description: "Font family name"
+    json_schema:
+      type: string
+    value:
+    nullable: true
+
+  - handle: cssPrefix
+    description: "CSS class prefix for icons"
+    json_schema:
+      type: string
+    value:
+    nullable: true
+
+outputs_def:
+  - handle: out_zip
+    description: "Path to the generated font package ZIP file"
+    json_schema:
+      type: string

@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "dependencies": {
+    "@types/node": "^24.5.2",
+    "sax": "^1.4.1",
+    "svg-packer": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

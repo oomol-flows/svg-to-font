@@ -1,0 +1,9 @@
+version: 0.0.6
+scripts:
+  bootstrap: |
+    npm install
+    poetry install --no-root
+icon: ./icon.png
+name: svg-to-font
+repository: https://github.com/oomol-flows/svg-to-font
+releaseNotes: init

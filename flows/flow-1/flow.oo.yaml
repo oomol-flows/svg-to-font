@@ -1,0 +1,13 @@
+nodes:
+  - node_id: svg-to-font#1
+    title: "SVG to Font Converter #1"
+    inputs_from:
+      - handle: svg_file
+        value: /oomol-driver/oomol-storage/test-svgs/home.svg
+      - handle: out_zip
+        value: null
+      - handle: fontName
+        value: null
+      - handle: cssPrefix
+        value: null
+    task: self::svg-to-font
