@@ -1,3 +1,14 @@
 {
-  "this-project-provides-an-automated-solution-for-converting-indiv": "This project provides an automated solution for converting individual SVG icon files into complete font packages. It generates multiple font formats (WOFF, TTF) along with CSS files, allowing designers and developers to easily integrate custom icons into their projects as scalable web fonts."
+  "this-project-provides-an-automated-solution-for-converting-indiv": "This project provides an automated solution for converting individual SVG icon files into complete font packages. It generates multiple font formats (WOFF, TTF) along with CSS files, allowing designers and developers to easily integrate custom icons into their projects as scalable web fonts.",
+  "display-name": "Svg to Font",
+  "svg-to-font-converter-1": "SVG to Font Converter #1",
+  "test-svg-to-font": "Test SVG to Font",
+  "test-flow-for-svg-to-font-task-with-default-session-directory": "Test flow for svg-to-font task with default session directory",
+  "svg-to-font-converter": "SVG to Font Converter",
+  "convert-svg-icons-to-web-font-files-with-css-woff-and-ttf-format": "Convert SVG icons to web font files with CSS, WOFF, and TTF formats",
+  "single-svg-file-to-convert": "Single SVG file to convert",
+  "output-directory-or-file-path-for-the-font-package-defaults-to-s": "Output directory or file path for the font package (defaults to session directory)",
+  "font-family-name-defaults-to-iconfont": "Font family name (defaults to 'iconfont')",
+  "css-class-prefix-for-icons-defaults-to-icon": "CSS class prefix for icons (defaults to 'icon-')",
+  "path-to-the-generated-font-package-zip-file": "Path to the generated font package ZIP file"
 }

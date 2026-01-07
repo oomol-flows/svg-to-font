@@ -6,7 +6,14 @@
       "Read(//oomol-driver/oomol-storage/**)",
       "mcp__oomol__listRunningTasks",
       "Bash(xargs dirname:*)",
-      "Bash(xargs basename:*)"
+      "Bash(xargs basename:*)",
+      "mcp__oomol__getTaskResult",
+      "mcp__oomol__refreshEditors",
+      "mcp__oomol__listBlocks",
+      "mcp__oomol__listBlockHandles",
+      "mcp__oomol__searchPackages",
+      "mcp__oomol__usePackage",
+      "Bash(unzip:*)"
     ],
     "deny": [],
     "ask": []

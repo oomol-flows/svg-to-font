@@ -1,0 +1,15 @@
+title: "%test-svg-to-font%"
+description: "%test-flow-for-svg-to-font-task-with-default-session-directory%"
+
+nodes:
+  - node_id: convert#1
+    task: self::svg-to-font
+    inputs_from:
+      - handle: svg_file
+        value: /app/workspace/test-icon.svg
+      - handle: out_zip
+        value: null
+      - handle: fontName
+        value: null
+      - handle: cssPrefix
+        value: null

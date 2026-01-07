@@ -1,3 +1,14 @@
 {
-  "this-project-provides-an-automated-solution-for-converting-indiv": "该项目提供了一种自动化解决方案，用于将单独的SVG图标文件转换为完整的字体包。它会生成多种字体格式（WOFF、TTF）以及CSS文件，使设计师和开发者能够轻松地将自定义图标作为可缩放的网页字体集成到他们的项目中。"
+  "this-project-provides-an-automated-solution-for-converting-indiv": "该项目提供了一种自动化解决方案，用于将单独的SVG图标文件转换为完整的字体包。它会生成多种字体格式（WOFF、TTF）以及CSS文件，使设计师和开发者能够轻松地将自定义图标作为可缩放的网页字体集成到他们的项目中。",
+  "display-name": "Svg 转字体",
+  "svg-to-font-converter-1": "SVG 转字体转换器 #1",
+  "test-svg-to-font": "测试 SVG 转字体",
+  "test-flow-for-svg-to-font-task-with-default-session-directory": "用于 svg-to-font 任务的测试流程，使用默认会话目录",
+  "svg-to-font-converter": "SVG 转字体转换器",
+  "convert-svg-icons-to-web-font-files-with-css-woff-and-ttf-format": "将 SVG 图标转换为带有 CSS、WOFF 和 TTF 格式的网页字体文件",
+  "single-svg-file-to-convert": "单个 SVG 文件待转换",
+  "output-directory-or-file-path-for-the-font-package-defaults-to-s": "字体包的输出目录或文件路径（默认为会话目录）",
+  "font-family-name-defaults-to-iconfont": "字体系列名称（默认为 'iconfont'）",
+  "css-class-prefix-for-icons-defaults-to-icon": "图标的 CSS 类前缀（默认为 'icon-'）",
+  "path-to-the-generated-font-package-zip-file": "生成的字体包 ZIP 文件的路径"
 }

@@ -1,6 +1,6 @@
-title: "SVG to Font Converter"
+title: "%svg-to-font-converter%"
 icon: ":carbon:text-font:"
-description: "Convert SVG icons to web font files with CSS, WOFF, and TTF formats"
+description: "%convert-svg-icons-to-web-font-files-with-css-woff-and-ttf-format%"
 
 executor:
   name: nodejs
@@ -9,7 +9,7 @@ executor:
 
 inputs_def:
   - handle: svg_file
-    description: "Single SVG file to convert"
+    description: "%single-svg-file-to-convert%"
     json_schema:
       type: string
       ui:widget: file
@@ -21,8 +21,11 @@ inputs_def:
         excludeAll: true
     nullable: false
 
+  - group: Advanced Options
+    collapsed: true
+
   - handle: out_zip
-    description: "Output directory or file path for the font package"
+    description: "%output-directory-or-file-path-for-the-font-package-defaults-to-s%"
     json_schema:
       type: string
       ui:widget: save
@@ -36,14 +39,14 @@ inputs_def:
     nullable: true
 
   - handle: fontName
-    description: "Font family name"
+    description: "%font-family-name-defaults-to-iconfont%"
     json_schema:
       type: string
     value:
     nullable: true
 
   - handle: cssPrefix
-    description: "CSS class prefix for icons"
+    description: "%css-class-prefix-for-icons-defaults-to-icon%"
     json_schema:
       type: string
     value:
@@ -51,6 +54,6 @@ inputs_def:
 
 outputs_def:
   - handle: out_zip
-    description: "Path to the generated font package ZIP file"
+    description: "%path-to-the-generated-font-package-zip-file%"
     json_schema:
       type: string

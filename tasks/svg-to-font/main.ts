@@ -38,7 +38,7 @@ export default async function(
         throw new Error('svg_file parameter is required');
     }
 
-    out_zip = out_zip || path.dirname(svg_file);
+    out_zip = out_zip || context.sessionDir;
     fontName = fontName || "iconfont";
     cssPrefix = cssPrefix || "icon-";
 
